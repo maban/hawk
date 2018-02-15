@@ -16,10 +16,10 @@
     "node": ">=4.0.0"
   },
   "dependencies": {
-    "hoek": "4.x.x",
-    "boom": "3.x.x",
-    "cryptiles": "3.x.x",
-    "sntp": "2.x.x",
+    "hoek": "5.0.3",
+    "boom": "6.0.0",
+    "cryptiles": "4.0.1",
+    "sntp": "3.0.0",
     "marked": "0.3.5",
     "hawk": "1.1.1"
   },
@@ -30,7 +30,9 @@
     "lab": "10.x.x"
   },
   "babel": {
-    "presets": ["es2015"]
+    "presets": [
+      "es2015"
+    ]
   },
   "scripts": {
     "build-client": "mkdir -p dist; babel lib/browser.js --out-file dist/browser.js",
